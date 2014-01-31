@@ -1,0 +1,19 @@
+  -1	1   LDA   Wigner
+1500	2   LDA   Hedin/Lundqvist
+1600	3   LDA   Ceperley/Alder Perdew/Zunger (1980)
+1100	4  SGGA   Perdew/Wang (1991)
+1422	5  SGGA   Becke (1988) X, Perdew (1986) C
+1111	6  SGGA   Perdew/Burke/Ernzerhof (1996)
+1434	7   LDA   Zhao/Parr
+  -1	8  SLDA   Ceperley/Alder Perdew/Wang (1991)
+1400	9   GGA   Becke (1988) X, Lee/Yang/Parr (1988) C
+1312	10  GGA   Perdew/Wang (1991) X, Lee/Yang/Parr (1988) C
+1342	11  LDA   exchange only
+1000	12  KLI   exact Kohn-Sham exchange in the Krieger et al. approx
+  -1	13  KLI   KLI+effective core potential
+  -1	14  GGA   Hammer/Norskov revised PBE GGA (RPBE)
+  -1	15  GGA   Zhang/Wang revised PBE GGA (revPBE)
+1144	16  MGGA  Perdew/Kurth/Zupan/Blaha MetaGGA (1999)
+  -1	17  GGA   GGA exchange + LDA correlation, PBE X, LDA C
+  -1	18  KLI   exact exchange + LDA correlation
+  -1	19  KLI   exact exchange + PBE GGA correlation

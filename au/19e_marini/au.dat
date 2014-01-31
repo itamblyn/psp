@@ -1,0 +1,57 @@
+#info /usr/local/fhi98PP/bin/Tools/psgen au 16:03:32 Dec 17 2008 itamblyn
+
+fhi pseudopotential tool fhipp - version rev270603B
+
+               chemical symbol  Au      
+                nuclear charge  79.00
+                  total charge   0.00
+         number of core states  10
+      number of valence states   4
+    exchange-correlation model   6  GGA Perdew/Burke/Ernzerhof              
+      scalar-relativistic mode
+        parameters radial mesh   567    1.024700  0.791139E-04
+
+       === all-electron atom ===
+
+<        n     l      occupation  eigenvalue(eV)
+
+<  1     1     0        2.0000       -80789.1953         -2968.9248
+<  2     2     0        2.0000       -14253.9775          -523.8199
+<  3     2     1        6.0000       -12320.5394          -452.7679
+<  4     3     0        2.0000        -3364.2885          -123.6344
+<  5     3     1        6.0000        -2803.6078          -103.0299
+<  6     3     2       10.0000        -2205.3196           -81.0434
+<  7     4     0        2.0000         -730.2204           -26.8349
+<  8     4     1        6.0000         -546.4129           -20.0801
+<  9     4     2       10.0000         -325.9005           -11.9765
+< 10     4     3       14.0000          -81.1222            -2.9812
+< 11     5     0        2.0000         -108.3695            -3.9825
+< 12     5     1        6.0000          -59.7831            -2.1970
+< 13     5     2       10.0000           -6.8773            -0.2527
+< 14     6     0        1.0000           -5.7623            -0.2118
+
+                                  (Hartree a.u.)
+                  total energy      -19011.86209
+                kinetic energy       21276.16754
+                orbital energy      -11737.51664
+                coulomb energy      -47311.96800
+                hartree energy        7386.22058
+   exchange-correlation energy        -362.28221
+           xc potential energy        -474.15735
+          number of iterations                32   convergence  0.0E+00
+           core kinetic energy       21045.91328
+           core orbital energy      -11713.63077
+         core potential energy      -32759.54406
+            integrated density          79.00000
+  ... 1st derivative test 1 =            1.00000
+  ... 2nd derivative test 1 =            1.00000
+
+ fhipp - all-electron atom done
+
+    === HAMANN mode ===   h     
+
+  l  n     radius:     node      peak       default core
+x 0  5                0.468      0.841      0.505
+x 1  5                0.504      0.951      0.570
+x 2  5                0.556      1.213      0.728
+x 3  5                0.000      0.000      1.468
