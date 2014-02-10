@@ -1,4 +1,4 @@
-#info /usr/local/fhi98PP/bin/Tools/psgen 29-Cu.LDA 16:24:22 Dec 17 2008 itamblyn
+#info /opt/etsf/fhi98PP/bin/Tools/psgen 29-Cu.LDA 11:39:36 Feb 10 2014 itamblyn
 
 fhi pseudopotential tool fhipp - version rev270603B
 
@@ -31,7 +31,7 @@ fhi pseudopotential tool fhipp - version rev270603B
                 hartree energy         717.64503
    exchange-correlation energy         -64.90170
            xc potential energy         -85.93678
-          number of iterations                31   convergence  0.0E+00
+          number of iterations                31   convergence  2.5E-17
            core kinetic energy        1456.39356
            core orbital energy        -929.24555
          core potential energy       -2385.63910

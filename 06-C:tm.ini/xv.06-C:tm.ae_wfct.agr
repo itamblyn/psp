@@ -980,7 +980,7 @@
 @    s15 errorbar riser clip off
 @    s15 errorbar riser clip length 0.100000
 @    s15 legend  ""
-@ title "Radial Wavefunctions  \s\S06-C:tm 15:45:47 Mar 26 2009 itamblyn\N\N"
+@ title "Radial Wavefunctions  \s\S06-C:tm 11:35:41 Feb 10 2014 itamblyn\N\N"
 @ legend string 0 "2p"
 1.041670e-03 8.297580e-06 
 1.148460e-03 9.758190e-06 

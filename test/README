@@ -1,6 +1,0 @@
-the difference between this and the CPMD version that Jan produced was a normalization
-factor in the density. 
-
-Mine is correct. The one that Jan did is fine for MD.
-
-
