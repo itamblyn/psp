@@ -1,10 +1,10 @@
 #!/bin/bash
 
-name=16-S:h
+name=05-B:h
 
 mv "$name".ini ~/
-rm 16* x*
+rm 05* x*
 mv ~/"$name".ini .
-psgen -o "$name" "$name".ini
-~/git/fhi2cpmd/fhi2cpmd "$name".dat "$name".cpi "$name".psp
-pswatch -i "$name" "$name".ini -l 1
+~/git/psp/fhi98PP/bin/Tools/psgen -o "$name" "$name".ini
+~/git/psp/fhi2cpmd/fhi2cpmd "$name".dat "$name".cpi "$name".psp
+~/git/psp/fhi98PP/bin/Tools/pswatch -i "$name" "$name".ini -l 1

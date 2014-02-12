@@ -490,7 +490,7 @@
 @    s4 errorbar riser clip off
 @    s4 errorbar riser clip length 0.100000
 @    s4 legend  "l=4"
-@ title "Ionic Pseudopotentials  \s\S06-C:tm 11:35:41 Feb 10 2014 itamblyn\N\N"
+@ title "Ionic Pseudopotentials  \s\S06-C:tm 18:01:53 Feb 12 2014 itamblyn\N\N"
 @ world ymin -10.00
 @ world ymax 1.00
 @ yaxis tick major 2.00
