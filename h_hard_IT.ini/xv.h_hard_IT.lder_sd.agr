@@ -1211,7 +1211,7 @@
 @    s3 legend  "reference state"
 @ with g2
 @ g2 on
-@ subtitle "h_hard_IT 17:31:04 Feb 12 2014 itamblyn r=0.7835 loc s"
+@ subtitle "h_hard_IT 17:53:54 Feb 12 2014 itamblyn r=0.7835 loc s"
 @ with g0
 @ g0 on
  -0.2000000E+01  0.1339766E+00
