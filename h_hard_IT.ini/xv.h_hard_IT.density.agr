@@ -394,7 +394,7 @@
 @    s2 errorbar riser clip off
 @    s2 errorbar riser clip length 0.100000
 @    s2 legend  "model core"
-@ title "Radial Densities \s\Sh_hard_IT 17:44:29 Dec 16 2008 itamblyn\N\N"
+@ title "Radial Densities \s\Sh_hard_IT 17:31:04 Feb 12 2014 itamblyn\N\N"
 @ legend string 0 "pseudo valence"
 6.250000e-03 1.120051e-04 
 6.404375e-03 1.176056e-04 
