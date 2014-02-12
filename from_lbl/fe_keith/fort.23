@@ -1,0 +1,41 @@
+
+fhi pseudopotential tool fhipp - version rev270603B
+
+               chemical symbol  Fe      
+                nuclear charge  26.00
+                  total charge   1.00
+         number of core states   3
+      number of valence states   4
+    exchange-correlation model   8  LDA CA Perdew/Wang 1991                 
+      scalar-relativistic mode
+        parameters radial mesh   521    1.024700  0.240385E-03
+
+       === all-electron atom ===
+
+<        n     l      occupation  eigenvalue(eV)
+
+<  1     1     0        2.0000        -6998.7622          -257.1977
+<  2     2     0        2.0000         -834.0292           -30.6498
+<  3     2     1        6.0000         -714.0610           -26.2411
+<  4     3     0        2.0000         -108.6084            -3.9913
+<  5     3     1        6.0000          -74.8337            -2.7501
+<  6     3     2        5.0000          -21.8222            -0.8019
+<  7     4     0        2.0000          -14.2973            -0.5254
+
+                                  (Hartree a.u.)
+                  total energy       -1269.65700
+                kinetic energy        1284.28726
+                orbital energy        -762.68478
+                coulomb energy       -3025.25549
+                hartree energy         524.05116
+   exchange-correlation energy         -52.73993
+           xc potential energy         -69.81888
+          number of iterations                25   convergence  0.0E+00
+           core kinetic energy        1143.99981
+           core orbital energy        -733.14133
+         core potential energy       -1877.14114
+            integrated density          25.00000
+  ... 1st derivative test 1 =            1.00000
+  ... 2nd derivative test 1 =            1.00000
+ 
+ fhipp - all-electron atom done

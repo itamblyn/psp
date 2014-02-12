@@ -1,0 +1,2 @@
+For the convertion from fhi to UPF, it is useful to look at the xmgrace files, as they make it clear what the "order"
+and names of the different wavefunctions are 

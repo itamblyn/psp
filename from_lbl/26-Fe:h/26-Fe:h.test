@@ -1,0 +1,115 @@
+#info /usr/local/fhi98PP/bin/Tools/pswatch 26-Fe:h 13:29:42 Sep 19 2011 itamblyn
+
+fhi pseudopotential tool pslp - version rev270603B
+
+               chemical symbol  Fe      
+                nuclear charge  26.00
+   number of valence electrons  16.00
+      number of valence states   4
+    exchange-correlation model   8  LDA CA Perdew/Wang 1991                 
+        parameters radial mesh   521    1.024700  0.240385E-03
+  input pseudopotentials up to   d
+
+          === pseudo atom (Hartree a.u.) ===
+
+<        n     l   occupation  eigenvalue(eV)  potential energy
+<  1     1     0      2.0000      -93.4700       -19.19404
+<  2     2     1      6.0000      -58.8116       -19.41103
+<  3     3     2      6.0000       -7.7162       -19.41934
+<  4     2     0      2.0000       -5.4949        -6.48839
+ 
+                  total energy    -122.66705
+                kinetic energy      69.54906
+  ionic pseudopotential energy    -284.34713
+                hartree energy     104.67620
+                     xc energy     -12.54518
+        local potential energy    -271.06175
+           xc potential energy     -16.49704
+    integrated valence density      16.00000
+          number of iterations            23   convergence  0.0E+00
+                  y range plot       -78   5  20
+ 
+ pslp - pseudoatom done - now testing
+
+ --- assuming scalar-relativistic all-electron atom ---
+
+ --- p component taken as local potential ---
+ --- input wavefunctions used for kb potentials ---
+
+ --- kb potentials: spectrum of bound states (eV) ---
+
+            l          e0            e1            e2
+semilocal   0      -93.4694       -5.4949        0.0000
+nonlocal    0      -93.4694       -5.4982        0.0000
+semilocal   2       -7.7099        0.0000        0.0000
+nonlocal    2       -7.7097        0.0000        0.0000
+
+ --- analysis of kb potentials: s waves  ---
+
+ * no ghost (ekb > 0, eloc0 < eref < eloc1)
+ 
+                     kb cosine        0.3352
+                     kb energy      232.6024 eV      ekb
+   local potential groundstate     -138.8602 eV    eloc0
+        dto. 1st excited state       -9.8211 eV    eloc1
+              reference energy      -93.4700 eV     eref
+
+ --- analysis of kb potentials: d waves  ---
+
+ & dftseq - no bound state found (iter): e=>0 n l           3           2
+ note: for the local potential no bound d state is
+       found, the ghost state analysis will assume
+       a zero groundstate energy (variable eloc0)
+
+ & dftseq - no bound state found (iter): e=>0 n l           4           2
+ note: for the local potential no bound excited d state
+       is found, the ghost state analysis will assume
+       a zero 1st excited state energy (variable eloc1)
+
+ * no ghost (ekb < 0, eref < eloc0)
+ 
+                     kb cosine       -0.2944
+                     kb energy     -803.8266 eV      ekb
+   local potential groundstate        0.0000 eV    eloc0
+        dto. 1st excited state        0.0000 eV    eloc1
+              reference energy       -7.7162 eV     eref
+
+ --- logarithmic derivatives: at radius = 2.9597 ---
+
+ --- nonlocal potentials ---
+ --- all-electron potential ---
+ --- semilocal potentials ---
+
+ --- kinetic energy convergence in momentum space ---
+
+     l  n  bracket   cutoff    norm   kinet. energy
+            (eV)      (Ry)               (Hartree)
+ck   0     1.0E+00     73   0.999199   0.191786E+01
+ck   0     1.0E-01    188   0.999966   0.195091E+01
+ck   0     1.0E-02      0 < 0.999978   0.195207E+01
+ & kinkon - bracket not met for cutoff < ekmx =         200  Ry
+cx   0  1                   1.000000   0.195449E+01
+
+ck   0     1.0E+00     34   0.998517   0.403086E+00
+ck   0     1.0E-01     75   0.999921   0.435931E+00
+ck   0     1.0E-02    131   0.999999   0.439283E+00
+ck   0     1.0E-03    143   1.000004   0.439609E+00
+cx   0  2                   1.000000   0.439600E+00
+
+ck   1     1.0E+00     46   0.999074   0.375799E+01
+ck   1     1.0E-01    153   0.999957   0.379100E+01
+ck   1     1.0E-02      0 < 0.999995   0.379412E+01
+ & kinkon - bracket not met for cutoff < ekmx =         200  Ry
+cx   1  2                   1.000000   0.379464E+01
+
+ck   2     1.0E+00      0 < 0.999202   0.690591E+01
+ & kinkon - bracket not met for cutoff < ekmx =         200  Ry
+cx   2  3                   1.000000   0.699884E+01
+
+ --- coulomb tail of pseudopotentials ---
+     Tolerance 1.0E-03 is met for
+     l= 1 at radii >   1.955
+     l= 2 at radii >   1.955
+     l= 3 at radii >   1.955
+
+ --- done & exiting ---

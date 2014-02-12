@@ -1,0 +1,38 @@
+#info /usr/local/fhi98PP/bin/Tools/psgen 06-C:tm 16:26:18 Feb 07 2012 itamblyn
+
+fhi pseudopotential tool fhipp - version rev270603B
+
+               chemical symbol  C       
+                nuclear charge   6.00
+                  total charge   0.01
+         number of core states   1
+      number of valence states   2
+    exchange-correlation model   8  LDA CA Perdew/Wang 1991                 
+      scalar-relativistic mode
+        parameters radial mesh   461    1.024700  0.104167E-02
+
+       === all-electron atom ===
+
+<        n     l      occupation  eigenvalue(eV)
+
+<  1     1     0        2.0000         -270.9312            -9.9565
+<  2     2     0        2.0000          -13.7430            -0.5050
+<  3     2     1        1.9900           -5.5152            -0.2027
+
+                                  (Hartree a.u.)
+                  total energy         -37.43859
+                kinetic energy          37.23364
+                orbital energy         -21.32634
+                coulomb energy         -87.55487
+                hartree energy          17.60954
+   exchange-correlation energy          -4.72689
+           xc potential energy          -6.22418
+          number of iterations                19   convergence  0.0E+00
+           core kinetic energy          31.46869
+           core orbital energy         -19.91292
+         core potential energy         -51.38161
+            integrated density           5.99000
+  ... 1st derivative test 1 =            1.00000
+  ... 2nd derivative test 1 =            1.00000
+ 
+ fhipp - all-electron atom done
