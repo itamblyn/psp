@@ -1,0 +1,145 @@
+#info /home/itamblyn/psp/fhi98PP/bin/Tools/pswatch ncpp 18:29:52 Feb 12 2014 itamblyn
+
+fhi pseudopotential tool pslp - version rev270603B
+
+               chemical symbol  S       
+                nuclear charge  16.00
+   number of valence electrons   6.00
+      number of valence states   2
+    exchange-correlation model   6  GGA Perdew/Burke/Ernzerhof              
+        parameters radial mesh   501    1.024700  0.390625E-03
+  input pseudopotentials up to   f
+
+          === pseudo atom (Hartree a.u.) ===
+
+<        n     l   occupation  eigenvalue(eV)  potential energy
+<  1     1     0      2.0000      -17.2567        -3.53286
+<  2     2     1      4.0000       -7.0089        -3.23098
+
+                  total energy     -10.07602
+                kinetic energy       3.60750
+  ionic pseudopotential energy     -19.98964
+                hartree energy       8.38911
+                     xc energy      -2.08299
+        local potential energy     -19.62564
+           xc potential energy      -2.69468
+    integrated valence density       6.00000
+          number of iterations            22   convergence  0.0E+00
+                  y range plot       -11   1   3
+
+ pslp - pseudoatom done - now testing
+
+ --- assuming scalar-relativistic all-electron atom ---
+
+ --- s component taken as local potential ---
+ --- input wavefunctions used for kb potentials ---
+
+ --- kb potentials: spectrum of bound states (eV) ---
+
+            l          e0            e1            e2
+semilocal   1       -7.0088        0.0000        0.0000
+nonlocal    1       -7.0089        0.0000        0.0000
+semilocal   2        0.0000        0.0000        0.0000
+nonlocal    2        0.0000        0.0000        0.0000
+semilocal   3        0.0000        0.0000        0.0000
+nonlocal    3        0.0000        0.0000        0.0000
+
+ --- analysis of kb potentials: p waves  ---
+
+ & dftseq - no bound state found (iter): e=>0 n l 3 1
+ note: for the local potential no bound excited p state
+       is found, the ghost state analysis will assume
+       a zero 1st excited state energy (variable eloc1)
+
+ * no ghost (ekb < 0, eref < eloc0)
+
+                     kb cosine       -0.1903
+                     kb energy      -68.4022 eV      ekb
+   local potential groundstate       -5.5016 eV    eloc0
+        dto. 1st excited state        0.0000 eV    eloc1
+              reference energy       -7.0089 eV     eref
+
+ --- analysis of kb potentials: d waves  ---
+
+ --- searching reference state ---
+ & dftseq - no bound state found (iter): e=>0 n l 3 2
+ note: for the semilocal d component no bound d state
+       is found, the ghost state analysis will assume
+       a zero reference energy (variable eref)
+
+ & dftseq - no bound state found (iter): e=>0 n l 3 2
+ note: for the local potential no bound d state is
+       found, the ghost state analysis will assume
+       a zero groundstate energy (variable eloc0)
+
+ & dftseq - no bound state found (iter): e=>0 n l 4 2
+ note: for the local potential no bound excited d state
+       is found, the ghost state analysis will assume
+       a zero 1st excited state energy (variable eloc1)
+
+ * undetermined (ekb < 0, eref = eloc0 = 0)
+   note: to decide, inspect log derivatives
+
+                     kb cosine       -0.3001
+                     kb energy     -119.0770 eV      ekb
+   local potential groundstate        0.0000 eV    eloc0
+        dto. 1st excited state        0.0000 eV    eloc1
+              reference energy        0.0000 eV     eref
+
+ --- analysis of kb potentials: f waves  ---
+
+ --- searching reference state ---
+ & dftseq - no bound state found (ctp): e=>0 n l 4 3
+ note: for the semilocal f component no bound f state
+       is found, the ghost state analysis will assume
+       a zero reference energy (variable eref)
+
+ & dftseq - no bound state found (ctp): e=>0 n l 4 3
+ note: for the local potential no bound f state is
+       found, the ghost state analysis will assume
+       a zero groundstate energy (variable eloc0)
+
+ & dftseq - no bound state found (ctp): e=>0 n l 5 3
+ note: for the local potential no bound excited f state
+       is found, the ghost state analysis will assume
+       a zero 1st excited state energy (variable eloc1)
+
+ * undetermined (ekb < 0, eref = eloc0 = 0)
+   note: to decide, inspect log derivatives
+
+                     kb cosine       -0.1320
+                     kb energy      -68.8645 eV      ekb
+   local potential groundstate        0.0000 eV    eloc0
+        dto. 1st excited state        0.0000 eV    eloc1
+              reference energy        0.0000 eV     eref
+
+ --- logarithmic derivatives: at radius = 2.5503 ---
+
+ --- nonlocal potentials ---
+ --- all-electron potential ---
+ --- semilocal potentials ---
+
+ --- kinetic energy convergence in momentum space ---
+
+     l  n  bracket   cutoff    norm   kinet. energy
+            (eV)      (Ry)               (Hartree)
+ck   0     1.0E+00     11   0.994966   0.380967E+00
+ck   0     1.0E-01     21   0.999797   0.412723E+00
+ck   0     1.0E-02     51   0.999988   0.415843E+00
+ck   0     1.0E-03     91   0.999999   0.416159E+00
+cx   0  1                   1.000000   0.416193E+00
+
+ck   1     1.0E+00      6   0.987970   0.658624E+00
+ck   1     1.0E-01     10   0.999349   0.690229E+00
+ck   1     1.0E-02     25   0.999975   0.693424E+00
+ck   1     1.0E-03     35   0.999998   0.693742E+00
+cx   1  2                   1.000000   0.693777E+00
+
+ --- coulomb tail of pseudopotentials ---
+     Tolerance 1.0E-03 is met for
+     l= 1 at radii >   1.684
+     l= 2 at radii >   1.684
+     l= 3 at radii >   1.812
+     l= 4 at radii >   1.769
+
+ --- done & exiting ---
