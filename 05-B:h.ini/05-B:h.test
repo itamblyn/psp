@@ -1,4 +1,4 @@
-#info /home/itamblyn/git/psp/fhi98PP/bin/Tools/pswatch 05-B:h 18:04:53 Feb 12 2014 itamblyn
+#info /home/itamblyn/git/psp/fhi98PP/bin/Tools/pswatch 05-B:h 19:08:18 Feb 12 2014 itamblyn
 
 fhi pseudopotential tool pslp - version rev270603B
 
@@ -21,7 +21,7 @@ fhi pseudopotential tool pslp - version rev270603B
   ionic pseudopotential energy      -5.02326
                 hartree energy       1.98830
                      xc energy      -0.77729
-        local potential energy      -5.58597
+        local potential energy      -5.40399
            xc potential energy      -1.01351
     integrated valence density       3.00000
           number of iterations            19   convergence  0.0E+00
@@ -31,53 +31,41 @@ fhi pseudopotential tool pslp - version rev270603B
 
  --- assuming scalar-relativistic all-electron atom ---
 
- --- p component taken as local potential ---
+ --- d component taken as local potential ---
  --- input wavefunctions used for kb potentials ---
 
  --- kb potentials: spectrum of bound states (eV) ---
 
             l          e0            e1            e2
 semilocal   0       -9.3837       -0.0165        0.0000
-nonlocal    0       -9.3837       -0.0143        0.0000
-semilocal   2        0.0000        0.0000        0.0000
-nonlocal    2        0.0000        0.0000        0.0000
+nonlocal    0       -9.3837       -0.0165        0.0000
+semilocal   1       -3.7152        0.0000        0.0000
+nonlocal    1       -3.7152        0.0000        0.0000
 
  --- analysis of kb potentials: s waves  ---
 
  * no ghost (ekb > 0, eloc0 < eref < eloc1)
 
-                     kb cosine        0.3089
-                     kb energy       80.2332 eV      ekb
-   local potential groundstate      -35.5234 eV    eloc0
-        dto. 1st excited state       -1.4636 eV    eloc1
+                     kb cosine        0.3113
+                     kb energy       62.6222 eV      ekb
+   local potential groundstate      -26.0212 eV    eloc0
+        dto. 1st excited state       -1.0888 eV    eloc1
               reference energy       -9.3837 eV     eref
 
- --- analysis of kb potentials: d waves  ---
+ --- analysis of kb potentials: p waves  ---
 
- --- searching reference state ---
- & dftseq - no bound state found (ctp): e=>0 n l 3 2
- note: for the semilocal d component no bound d state
-       is found, the ghost state analysis will assume
-       a zero reference energy (variable eref)
-
- & dftseq - no bound state found (ctp): e=>0 n l 3 2
- note: for the local potential no bound d state is
-       found, the ghost state analysis will assume
-       a zero groundstate energy (variable eloc0)
-
- & dftseq - no bound state found (ctp): e=>0 n l 4 2
- note: for the local potential no bound excited d state
+ & dftseq - no bound state found (iter): e=>0 n l 3 1
+ note: for the local potential no bound excited p state
        is found, the ghost state analysis will assume
        a zero 1st excited state energy (variable eloc1)
 
- * undetermined (ekb < 0, eref = eloc0 = 0)
-   note: to decide, inspect log derivatives
+ * no ghost (ekb < 0, eref < eloc0)
 
-                     kb cosine       -0.1297
-                     kb energy      -20.7401 eV      ekb
-   local potential groundstate        0.0000 eV    eloc0
+                     kb cosine       -0.3003
+                     kb energy      -19.6762 eV      ekb
+   local potential groundstate       -2.4973 eV    eloc0
         dto. 1st excited state        0.0000 eV    eloc1
-              reference energy        0.0000 eV     eref
+              reference energy       -3.7153 eV     eref
 
  --- logarithmic derivatives: at radius = 2.0812 ---
 

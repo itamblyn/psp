@@ -780,7 +780,7 @@
 @    s9 errorbar riser clip off
 @    s9 errorbar riser clip length 0.100000
 @    s9 legend  "5g"
-@ title "Pseudo vs All-Electron Wavefunctions  \s\S05-B:h 18:04:53 Feb 12 2014 itamblyn\N\N"
+@ title "Pseudo vs All-Electron Wavefunctions  \s\S05-B:h 19:08:17 Feb 12 2014 itamblyn\N\N"
 @ legend string 0 "1s \6r\sc\N\4=0.908 "
 1.250000e-03 5.520760e-04 
 1.344930e-03 5.940040e-04 
